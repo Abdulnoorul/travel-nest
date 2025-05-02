@@ -51,18 +51,18 @@ function App() {
       //passenger
       ticket.setFontSize(10);
       ticket.text("Passenger Details", 88, 40)
-      ticket.rect(15, 43, 180, 49, 'S');
+      ticket.rect(15, 43, 188, 49, 'S');
       ticket.text(`Name: ${pname}`, 20, 49)
       ticket.text(`Age: ${age}`, 88, 49)
       ticket.text(`Mob: ${mob}`, 150, 49)
-      ticket.rect(15, 52, 180, 0.1, 'S');
+      ticket.rect(15, 52, 188, 0.1, 'S');
       ticket.text(`Email: ${mail}`, 20, 58)
       ticket.text(`Date: ${date}`, 88, 58)
-      ticket.rect(15, 61, 180, 0.1, 'S');
+      ticket.rect(15, 61, 188, 0.1, 'S');
       ticket.text(`Boarding Point: ${source}`, 20, 68)
       ticket.text('---->', 96, 68)
       ticket.text(`Dropping Point: ${destination}`, 150, 68)
-      ticket.rect(15, 72, 180, 0.11, 'S');
+      ticket.rect(15, 72, 188, 0.11, 'S');
 
       //Note
       ticket.setFontSize(5);
@@ -88,6 +88,16 @@ function App() {
 
 
       ticket.save("Travel-Nest.pdf")
+
+
+      setSource('')
+      setDestination('')
+      setPname('')
+      setAge('')
+      setDate('')
+      setMob('')
+      setMail('')
+
     }
   }
 
