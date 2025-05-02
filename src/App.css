@@ -1,0 +1,123 @@
+.main{
+  width: 100vw;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #d4a373;
+}
+
+#logo{
+  width: 120px;
+  height: 100px;
+  padding: 5px;
+}
+
+.tite{
+  flex: 1;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.head{
+  background-color: #67ae6e41;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secondhead{
+  text-align: center;
+}
+
+.ticketbook{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+}
+
+.journey{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.Pdetails{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  outline: none;
+  border: none;
+  width: 150px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: #e3d5ca;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#swa{
+  width: 30px;
+  height: 30px;
+}
+
+#fromcity, #tocity{
+  border-radius: 25px;
+  padding: 5px;
+  outline: none;
+  width: 180px;
+  background-color: #e3d5ca;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+option{
+  font-family: 18px;
+}
+
+#dat{
+  outline: none;
+  height: 30px;
+  border-radius: 25px;
+  border: none;
+  padding: 5px;
+  background-color: #e3d5ca;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.detal{
+  border-radius: 25px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: #e3d5ca;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.millic{
+  border-radius: 25px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: #e3d5ca;
+  font-size: 18px;
+  cursor: pointer;
+}
